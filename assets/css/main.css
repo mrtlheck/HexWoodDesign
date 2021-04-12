@@ -2,24 +2,30 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     background-color: #000;
-    background-image: url(/assets/images/wood.jpg);
+    background-image: url(/assets/images/WoodChair.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
     /* outline: 1px solid black; */
     width: 100vw;
     height: 100vh;
     margin: auto;
+    color: rgb(238, 234, 228);
 }
 main {
     /* outline: 1px solid black; */
     width: 80%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     align-items: center;
 }
